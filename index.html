@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BlackPink Official Fan Page</title>
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- ---------------------------- Start of Navbar --------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark menu sticky-md-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/BP_LOGO_x150.png" alt="BlackPink Logo" width="200">
+                <h4 class="px-2 text-secondary">Official Fan Page</h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary active" aria-current="page" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary d-none d-md-block " aria-current="page" href="#members">Members</a>
+                    </li>
+                    <li class="nav-item dropdown d-md-none d-lg-none d-xl-none d-xxl-none">
+                        <a class="nav-link dropdown-toggle text-secondary " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Members
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item text-secondary" href="#jisoo">Jisoo</a></li>
+                            <li><a class="dropdown-item text-secondary" href="#jennie">Jennie</a></li>
+                            <li><a class="dropdown-item text-secondary" href="#rose">Rose</a></li>
+                            <li><a class="dropdown-item text-secondary" href="#lisa">Lisa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#albums">Discography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#news">Latest News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#tweets">Recent Tweets</a>
+                    </li>
+                    <button type="button" class="rounded-pill btn-rounded" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        Login / Sign Up
+                        <span>
+                            <i class="fas fa-user"></i>
+                        </span>
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- ------------------------------ End of Navbar --------------------------- -->
+
+<!-- -------------------- Start of Login/Register Modal -------------------- -->
+    <div class="modal fade" id="loginModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content container bg-secondary">
+
+                <ul class="nav nav-pills justify-content-center  gap-md-2 d-md-flex mb-4 mt-2" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active btn btn-md-lg px-md-5" id="home-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab">Login</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link btn btn-md-lg px-md-5" id="profile-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab">Sign Up</button>
+                    </li>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </ul>
+                
+                <div class="tab-content">
+                    <!-- -------------------- Start of Login Tab --------------------- -->
+                    <div class="tab-pane active container" id="login" role="tabpanel">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <form>
+                                    <div class="text-center mb-3">
+                                        <h4>Sign in with:</h4>
+                                            
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fab fa-twitter"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fa-brands fa-reddit-alien"></i>
+                                        </button>
+
+                                        <h4 class="text-center my-2">or:</h4>
+
+                                        <!-- ------------------ Email Input ------------------ -->
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-8">
+                                                    <div class="form-outline mb-4">
+                                                        <input type="email" id="loginName" class="form-control" placeholder="Email or username"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- ---------------- Password Input ----------------- -->
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-8">
+                                                    <div class="form-outline mb-4">
+                                                        <input type="password" id="loginPassword" class="form-control" placeholder="Password"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container">
+                                            <div class="row mb-2">
+                                                <div class="col-4 col-lg-5 d-flex justify-content-end">
+                                                    <!-- ------------ Remember Me ------------ -->
+                                                    <div class="form-check mb-3">
+                                                        <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                                                        <label class="form-check-label modal-text" for="loginCheck"> Remember me </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 col-lg-2"></div>
+                                                <div class="col-4 col-lg-5 d-flex justify-content-start">
+                                                    <!-- ---------- Forgot Password ---------- -->
+                                                    <a class="modal-text" href="#!">Forgot password?</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- ------------------ Submit button ---------------- -->
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block mb-4">Sign in</button>
+
+                                        <!-- ---------------- Register button ---------------- -->
+                                        <div class="text-center">
+                                            <p>Not a member? <a href="#register">Register</a></p>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <img src="images/blackpink-group.png" alt="Blackpink Group" style="width:387px; height:520px; object-fit:cover;">
+                            </div>
+                            </div>
+                    </div>
+                        <!-- --------------------- End of Login Tab ---------------------- -->
+                        
+                        <!-- ------------------- Start of Register Tab ------------------- -->
+                    <div class="tab-pane" id="register" role="tabpanel">
+                            <div class="container">
+                                <h1 class="ms-2 text-center"><strong>Blackpink Global Official Fanclub</strong></h1>
+                                <p class="mx-2 text-center"><strong>Fill details below to join a fan community where BLINKs interact, connect, and create torgether!</strong></p>
+                                <hr/>
+                                <div class="text-center mb-3">
+                                    <h4>Sign up with:</h4>
+                                    
+                                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                    </button>
+                                
+
+                                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+
+                                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                                        <i class="fa-brands fa-reddit-alien"></i>
+                                    </button>
+
+                                    <h4 class="text-center my-2">or:</h4>
+                                </div>
+
+                                <!-- ------------------- Name Input ---------------------- -->
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-8 mb-3">
+                                        <label class="mb-1 modal-text" for="username" id="name-label"> <strong> Name / Username: </strong> </label>
+                                        <input id="name" type="text" name="name" class="form-control" required>
+                                    </div>
+                                </div>
+                                
+                                <!-- ------------------ Password Input ------------------- -->
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-md-5 col-lg-4 mb-3">
+                                        <label class="mb-1 modal-text" for="password" id="password-label"> <strong> Password: </strong> </label>
+                                        <input id="password" type="password" name="password" class="form-control" required>
+                                    </div>
+                                    <div class="col-6 col-md-5 col-lg-4 mb-3">
+                                        <label class="mb-1 modal-text" for="verPassword" id="verPassword-label"> <strong> Verify Password: </strong> </label>
+                                        <input id="verPassword" type="password" name="VerPassword" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <!-- -------------------- Email Input -------------------- -->
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-8 mb-3">
+                                        <label class="mb-1 modal-text" for="email" id="email-label"> <strong> E-mail: </strong> </label>
+                                        <input id="email" type="email" name="email"  class="form-control" required>
+                                    </div>
+                                </div>
+                                
+                                <!-- ---------------- Favorite Song Input ---------------- -->
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-8 mb-3">
+                                        <label class="mb-1 modal-text" for="favoriteSong" id="favoriteSong-label"> <strong> Favorite Song: </strong> </label>
+                                        <select class="form-select modal-text" id="favoriteSong" name="favoriteSong">
+                                            <option value="BOOMBAYAH"> BOOMBAYAH </option>
+                                            <option value="WHISTLE"> WHISTLE </option>
+                                            <option value="PLAYING_WITH_FIRE"> PLAYING WITH FIRE </option>
+                                            <option value="STAY"> STAY </option>
+                                            <option value="AS_IF_IT'S_YOUR_LAST"> AS IF IT'S YOUR LAST </option>
+                                            <option value="DDU-DU_DDU-DU"> DDU-DU DDU-DU</option>
+                                            <option value="FOREVER_YOUNG"> FOREVER YOUNG </option>
+                                            <option value="REALLY"> REALLY </option>
+                                            <option value="SEE_U_LATER"> SEE U LATER </option>
+                                            <option value="KILL_THIS_LOVE"> KILL THIS LOVE </option>
+                                            <option value="HOW_YOU_LIKE_THAT"> HOW YOU LIKE THAT </option>
+                                            <option value="ICE_CREAM"> ICE CREAM </option>
+                                            <option value="PRETTY_SAVAGE"> PRETTY SAVAGE </option>
+                                            <option value="BET_YOU_WANNA"> BET YOU WANNA </option>
+                                            <option value="LOVESICK_GIRLS"> LOVESICK GIRLS </option>
+                                            <option value="CRAZY_OVER_YOU"> CRAZY OVER YOU </option>
+                                            <option value="LOVE_TO_HATE_ME"> LOVE TO HATE ME </option>
+                                            <option value="YOU_NEVER_KNOW"> YOU NEVER KNOW </option>
+                                            <option value="SOLO"> SOLO </option>
+                                            <option value="ON_THE_GROUND"> ON THE GROUND </option>
+                                            <option value="GONE"> GONE </option>
+                                            <option value="LALISA"> LALISA </option>
+                                            <option value="MONEY"> MONEY </option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <!-- -------------- Years as a Blink Input --------------- -->
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-8 mb-3">
+                                        <label class="mb-1 modal-text" for="loyalty" id="loyalty-label"> <strong> Years as a BLINK: </strong> </label> <br />
+                                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                            <div class="form-check form-check-inline mx-lg-2">
+                                                <input name="loyalty" class="form-check-input" type="radio" id="loyalty_underOne" value="underOne">
+                                                <label class="form-check-label modal-text" for="loyalty_underOne">&lt; 1 Year</label>
+                                            </div>
+                                            <div class="form-check form-check-inline mx-lg-2">
+                                                <input name="loyalty" class="form-check-input" type="radio" id="loyalty_oneTwo" value="oneTwo">
+                                                <label class="form-check-label modal-text" for="loyalty_oneTwo">1 - 2 Years</label>
+                                            </div>
+                                            <div class="form-check form-check-inline mx-lg-2">
+                                                <input name="loyalty" class="form-check-input" type="radio" id="loyalty_twoFour" value="twoFour">
+                                                <label class="form-check-label modal-text" for="loyalty_twoFour">2 - 4 Years</label>
+                                            </div>
+                                            <div class="form-check form-check-inline mx-lg-2">
+                                                <input name="loyalty" class="form-check-input" type="radio" id="loyalty_fourPlus" value="fourPlus">
+                                                <label class="form-check-label modal-text" for="loyalty_fourPlus">4+ Years</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- --------------- Favorite Member Input --------------- -->
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-8 mb-3">
+                                        <label for="favoriteMember" class="mb-1 modal-text" id="favoriteMember-label"><strong> Favorite Member: (Can Pick More Than One)</strong> </label> <br />
+                                        
+                                        <input type="checkbox" class="btn-check" id="favoriteMember-jisoo" autocomplete="off">
+                                        <label class="btn btn-outline-primary me-md-4 modal-text" for="favoriteMember-jisoo">Jisoo</label>
+                                        
+                                        <input type="checkbox" class="btn-check" id="favoriteMember-jennie" autocomplete="off">
+                                        <label class="btn btn-outline-primary me-md-4 modal-text" for="favoriteMember-jennie">Jennie</label>
+
+                                        <input type="checkbox" class="btn-check" id="favoriteMember-rose" autocomplete="off">
+                                        <label class="btn btn-outline-primary me-md-4 modal-text" for="favoriteMember-rose">Rosé</label>
+
+                                        <input type="checkbox" class="btn-check" id="favoriteMember-lisa" autocomplete="off">
+                                        <label class="btn btn-outline-primary modal-text" for="favoriteMember-lisa">Lisa</label>
+
+
+                                    </div>
+                                </div>
+
+                                <!-- ------------------- Submit Button ------------------- -->
+                                <div class="row">
+                                    <div class="col-11 mb-3 text-end">
+                                        <button type="button" class="rounded-pill btn-rounded">
+                                            Submit
+                                            <span>
+                                                <i class="fa-solid fa-paper-plane"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </div>
+                        <!-- -------------------- End of Register Tab -------------------- -->    
+                </div>
+
+            </div>    
+        </div>
+    </div>
+<!-- -------------------- End of Login/Register Modal ----------------------- -->
+
+<!-- ------------------------ Start of Intro Section ------------------------ -->
+    <section class="container-fluid mb-5 section" id="intro">
+        <div class="row">
+            <video class="d-none d-md-block w-100 mx-auto" src="videos/Blink-Intro.mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="row text-center py-5 section-title">
+            <h1 class="text-secondary">Follow BLACKPINK's Official SNS Pages:</h1>
+        </div>
+        <div class="row text-center mx-5">
+            <div class="col-6 col-md-2">
+                <a href="https://www.youtube.com/BLACKPINKOFFICIAL" target="_blank">
+                    <img width="150px" src="images/youtube_pink.webp">
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="https://www.facebook.com/BLACKPINKOFFICIAL" target="_blank">
+                    <img width="150px" src="images/facebook_pink.webp">
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="https://www.weibo.com/ygblackpinkofficial" target="_blank">
+                    <img width="150px" src="images/weibo_pink.webp">
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="https://www.instagram.com/BLACKPINKOFFICIAL" target="_blank">
+                    <img width="150px" src="images/instagram_pink.webp">
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="https://twitter.com/BLACKPINK" target="_blank">
+                    <img width="150px" src="images/twitter_pink.webp">
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="https://channels.vlive.tv/F001E5" target="_blank">
+                    <img width="150px" src="images/vlive_pink.webp">
+                </a>
+            </div>
+        </div>
+    </section>
+<!-- -------------------------- End of Intro Section ------------------------ -->
+
+<!-- ----------------------- Start of Members Section ----------------------- -->
+    <section class="container-fluid mb-5">
+        <div class="row text-center py-5 section-title" id="members">
+            <h1 class="text-secondary">Members</h1>
+        </div>
+        <div class="row">
+            <!-- --------------------- Jisoo -------------------------------- -->
+            <div class="col-md-2 card rounded bg-secondary my-2" id="jisoo">
+                <h1 class="text-primary text-center card-title">Jisoo</h1>
+                <img  class="rounded-circle d-none d-md-block member-img" src="images/blackpink-jisoo.jpg" alt="Blackpink Memmber Jisoo">
+            </div>
+            <div class="col-md-4 bg-success my-2">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h1 class="accordion-header text-center">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jisoo-bio" >
+                                <h4><strong>Biography</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="jisoo-bio" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"> <strong>Stage Name:</strong> Jisoo (지수) </li>
+                                    <li class="list-group-item"> <strong>Birth Name:</strong> Kim Jisoo (김지수) </li>
+                                    <li class="list-group-item"> <strong>Nicknames:</strong> Chi Choo, Jichu </li>
+                                    <li class="list-group-item"> <strong>Position:</strong> Lead Vocalist, Visual </li>
+                                    <li class="list-group-item"> <strong>Birthday:</strong> January 3, 1995 </li>
+                                    <li class="list-group-item"> <strong>Zodiac Sign:</strong>  Capricorn </li>
+                                    <li class="list-group-item"> <strong>Birthplace:</strong> Gunpo, Gyeonggi-do, South Korea </li>
+                                    <li class="list-group-item"> <strong>Height:</strong> 162 cm (5 ft 3¾ in) </li>
+                                    <li class="list-group-item"> <strong>Weight:</strong> 44 kg (97 lbs) </li>
+                                    <li class="list-group-item"> <strong>Blood Type:</strong> A </li>
+                                    <li class="list-group-item"> <strong>MBTI Type:</strong> ESTP </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h1 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jisoo-facts">
+                                <h4><strong>Interesting Facts About Jisoo</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="jisoo-facts" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"> Jisoo has an older brother (named Kim Junghoon) and an older sister.</li>
+                                    <li class="list-group-item">She trained for 5 years (2011 July).</li>
+                                    <li class="list-group-item"> Jisoo was the third member to be revealed.</li>
+                                    <li class="list-group-item">She can speak Korean, Japanese and basic Chinese.</li>
+                                    <li class="list-group-item">She is close friends with Twice’s Nayeon (since trainee days), Red Velvet’s Seulgi, Girls’ Day’s Hyeri, Bona of WJSN and Sowon of GFriend.</li>
+                                    <li class="list-group-item">Jisoo can play basketball and inline skates but she can’t ride bicycles.</li>
+                                    <li class="list-group-item">Jisoo can play basketball and inline skates but she can’t ride bicycles.</li>
+                                    <li class="list-group-item">She’s currently listed as an actress under YG Stage.</li>
+                                    <li class="list-group-item"> <strong>Jisoo’s ideal type:</strong> Someone who is really into her or who smiles pretty.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h1 class="accordion-header accordion-heading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#jisoo-social">
+                                <h4><strong>Social Media</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="jisoo-social" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <div class="row text-center mb-lg-3 mb-md-3">
+                                    <div class="col-4">
+                                        <a href="https://m.weibo.cn/u/7458000931?jumpfrom=weibocom" target="_blank">
+                                            <i class="fab fa-weibo fab-3"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="https://www.instagram.com/sooyaaa__/" target="_blank">
+                                            <i class="fab fa-instagram fab-3"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="https://twitter.com/sooyyaaa_" target="_blank">
+                                            <i class="fab fa-twitter fab-3"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------- Jisoo -------------------------------- -->
+            
+            <!-- -------------------- Jennie -------------------------------- -->
+            <div class="col-md-2 card rounded bg-secondary my-2" id="jennie">
+                <h1 class="text-primary text-center card-title">Jennie</h1>
+                <img  class="rounded-circle d-none d-md-block member-img" src="images/blackpink-jennie.jpg" alt="Blackpink Memmber Jennie">
+            </div>
+            <div class="col-md-4 bg-success my-2">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h1 class="accordion-header text-center">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jennie-bio" >
+                                <h4><strong>Biography</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="jennie-bio" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"> <strong>Stage Name:</strong> Jennie (제니) </li>
+                                    <li class="list-group-item"> <strong>Birth Name:</strong> Kim Jennie (김제니) </li>
+                                    <li class="list-group-item"> <strong>Nicknames:</strong> NiNi, Jendeukie </li>
+                                    <li class="list-group-item"> <strong>Position:</strong> Main Rapper, Lead Vocalist </li>
+                                    <li class="list-group-item"> <strong>Birthday:</strong>  January 16, 1996 </li>
+                                    <li class="list-group-item"> <strong>Zodiac Sign:</strong>  Capricorn </li>
+                                    <li class="list-group-item"> <strong>Birthplace:</strong> Cheongdam-dong, Seoul, South Korea </li>
+                                    <li class="list-group-item"> <strong>Height:</strong> 163 cm (5’4″) </li>
+                                    <li class="list-group-item"> <strong>Weight:</strong> 45 kg (99 lbs) </li>
+                                    <li class="list-group-item"> <strong>Blood Type:</strong> B </li>
+                                    <li class="list-group-item"> <strong>MBTI Type:</strong> INFP </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h1 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jennie-facts">
+                                <h4><strong>Interesting Facts About Jennie</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="jennie-facts" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"> Jennie lived in Auckland, New Zealand for 5 years. </li>
+                                    <li class="list-group-item">She trained for 5 years (2011 July).</li>
+                                    <li class="list-group-item"> She doesn’t have any siblings. </li>
+                                    <li class="list-group-item"> Jennie can play acoustic and electric guitar. </li>
+                                    <li class="list-group-item">She has 2 puppies, Kai and Kuma.</li>
+                                    <li class="list-group-item">She is fluent in Korean, Japanese, and English.</li>
+                                    <li class="list-group-item">She is close friends with Nayeon (Twice), Irene (Red Velvet), Yerin (GFriend), Chahee (Melody Day) and Lime (Hello Venus).</li>
+                                    <li class="list-group-item">Her favorite foods are anything that is Korean food.</li>
+                                    <li class="list-group-item"> <strong>Jennie’s ideal type:</strong> Someone who is a hard worker.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h1 class="accordion-header accordion-heading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#jennie-social">
+                                <h4><strong>Social Media</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="jennie-social" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <div class="row text-center">
+                                    <div class="col-3">
+                                        <a href="https://m.weibo.cn/u/7457158939?jumpfrom=weibocom" target="_blank">
+                                            <i class="fab fa-weibo fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://www.instagram.com/jennierubyjane/" target="_blank">
+                                            <i class="fab fa-instagram fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://www.youtube.com/channel/UCNYi_zGmR519r5gYdOKLTjQ" target="_blank">
+                                            <i class="fab fa-youtube fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://twitter.com/BLACKPINK_JENN" target="_blank">
+                                            <i class="fab fa-twitter fab-4"></i> <br />
+                                        </a>
+                                        <i class="fa-solid fa-f jennie-fan"></i>
+                                        <i class="fa-solid fa-a jennie-fan"></i>
+                                        <i class="fa-solid fa-n jennie-fan"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------- Jennie -------------------------------- -->
+
+            <!-- --------------------- Rosé --------------------------------- -->
+            <div class="col-md-2 card rounded bg-secondary my-2" id="rose">
+                <h1 class="text-primary text-center card-title">Rosé</h1>
+                <img  class="rounded-circle d-none d-md-block member-img" src="images/blackpink-rose.jpg" alt="Blackpink Memmber Rosé">
+            </div>
+            <div class="col-md-4 bg-success my-2">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h1 class="accordion-header text-center">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rose-bio" >
+                                <h4><strong>Biography</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="rose-bio" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"> <strong>Stage Name:</strong> Rosé (로제) </li>
+                                    <li class="list-group-item"> <strong>Birth Name:</strong> Park Chaeyoung (박채영) </li>
+                                    <li class="list-group-item"> <strong>Nicknames:</strong> Rose, Rosie, “Pasta” </li>
+                                    <li class="list-group-item"> <strong>Position:</strong> Main Vocalist, Lead Dancer </li>
+                                    <li class="list-group-item"> <strong>Birthday:</strong> February 11, 1997 </li>
+                                    <li class="list-group-item"> <strong>Zodiac Sign:</strong> Aquarius </li>
+                                    <li class="list-group-item"> <strong>Birthplace:</strong> Auckland, New Zealand </li>
+                                    <li class="list-group-item"> <strong>Height:</strong> 168.7 cm (5’6”) </li>
+                                    <li class="list-group-item"> <strong>Weight:</strong> 44 kg (97 lbs) </li>
+                                    <li class="list-group-item"> <strong>Blood Type:</strong> B </li>
+                                    <li class="list-group-item"> <strong>MBTI Type:</strong> ENFP </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h1 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rose-facts">
+                                <h4><strong>Interesting Facts About Rosé</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="rose-facts" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"> She is Korean, but she was born in Auckland, New Zealand and raised in Melbourne, Box Hill (Australia), where she attended Canterbury Girls Secondary College. </li>
+                                    <li class="list-group-item">She has an older sister, named Alice. </li>
+                                    <li class="list-group-item"> She trained for 4 years 2 months. </li>
+                                    <li class="list-group-item"> She can speak Korean, English, Japanese. </li>
+                                    <li class="list-group-item"> Her hobbies are playing guitar, drawing, and riding the bicycle. </li>
+                                    <li class="list-group-item">Chaeyoung (Rosé) is close to Twice’s Chaeyoung and Tzuyu, with Red Velvet’s Joy and Yeri, and with Ladies Code‘s Ashley Choi.</li>
+                                    <li class="list-group-item">Rosé debuted as a soloist on March 12, 2021, with first single album ‘-R-‘.</li>
+                                    <li class="list-group-item">She collaborated with G-Dragon for the song ‘Without You’.</li>
+                                    <li class="list-group-item"> <strong>Rosé’s ideal type:</strong> Someone nice and genuine, with a good/ unique voice. </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h1 class="accordion-header accordion-heading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#rose-social">
+                                <h4><strong>Social Media</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="rose-social" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <div class="row text-center mb-lg-4">
+                                    <div class="col-3">
+                                        <a href="https://m.weibo.cn/u/7460277193?jumpfrom=weibocom" target="_blank">
+                                            <i class="fab fa-weibo fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://www.instagram.com/roses_are_rosie/" target="_blank">
+                                            <i class="fab fa-instagram fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://www.youtube.com/channel/UCBo1hnzxV9rz3WVsv__Rn1g" target="_blank">
+                                            <i class="fab fa-youtube fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://twitter.com/BLACKPINK_ROSEP" target="_blank">
+                                            <i class="fab fa-twitter fab-4"></i> <br />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- --------------------- Rosé --------------------------------- -->
+
+            <!-- --------------------- Lisa --------------------------------- -->
+            <div class="col-md-2 card rounded bg-secondary my-2" id="lisa">
+                <h1 class="text-primary text-center card-title">Lisa</h1>
+                <img  class="rounded-circle d-none d-md-block member-img" src="images/blackpink-lisa.jpg" alt="Blackpink Memmber Lisa">
+            </div>
+            <div class="col-md-4 bg-success my-2">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h1 class="accordion-header text-center">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lisa-bio" >
+                                <h4><strong>Biography</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="lisa-bio" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"> <strong>Stage Name:</strong> Lisa (리사) </li>
+                                    <li class="list-group-item"> <strong>Birth Name:</strong> Lalisa Manoban (ลลิสา มโนบาล) / Pranpriya Manoban (ปราณปริยา มโนบาล) </li>
+                                    <li class="list-group-item"> <strong>Nicknames:</strong> Lili, Lalice, Laliz, Pokpak </li>
+                                    <li class="list-group-item"> <strong>Position:</strong> Main Dancer, Lead Rapper, Sub Vocalist, Maknae </li>
+                                    <li class="list-group-item"> <strong>Birthday:</strong> March 27, 1997 </li>
+                                    <li class="list-group-item"> <strong>Zodiac Sign:</strong> Aries </li>
+                                    <li class="list-group-item"> <strong>Birthplace:</strong> Buriram, Thailand </li>
+                                    <li class="list-group-item"> <strong>Height:</strong> 166.5 cm (5’5.6″) </li>
+                                    <li class="list-group-item"> <strong>Weight:</strong> 44.7 kg (98.5 lbs) </li>
+                                    <li class="list-group-item"> <strong>Blood Type:</strong> O </li>
+                                    <li class="list-group-item"> <strong>MBTI Type:</strong> ESFJ </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h1 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lisa-facts">
+                                <h4><strong>Interesting Facts About Lisa</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="lisa-facts" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"> Lisa’s stepfather who’s a top certified Swiss chef in Thailand is Marco Brüschweiler. </li>
+                                    <li class="list-group-item">She was the only person accepted to YG in the YG Audition in Thailand 2010.</li>
+                                    <li class="list-group-item">She trained for 5 years 3 months. She became a trainee during middle school and lived in Korea since. </li>
+                                    <li class="list-group-item"> She can speak Korean, English, Japanese, Thai and basic Chinese. </li>
+                                    <li class="list-group-item"> Her favorite food are French fries. </li>
+                                    <li class="list-group-item"> Lisa’s friends with GOT7’s BamBam, CLC’s Sorn, NCT’s Ten and (G)I-DLE’s Minnie. </li>
+                                    <li class="list-group-item">Lisa was chosen as the dance mentor of Chinese show Youth With You 2 & 3.</li>
+                                    <li class="list-group-item">She’s debuted as a soloist on September 10, 2021 with first single album “Lalisa”.</li>
+                                    <li class="list-group-item"> <strong>Lisa’s ideal type:</strong> She said she likes older guys, who can take good care of her. Also she likes kindhearted men, who can cook and who have a lifestyle that fits hers. </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h1 class="accordion-header accordion-heading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#lisa-social">
+                                <h4><strong>Social Media</strong></h4>
+                            </button>
+                        </h1>
+                        <div id="lisa-social" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <div class="row text-center mb-lg-4">
+                                    <div class="col-3">
+                                        <a href="https://www.weibo.com/lisaofficial" target="_blank">
+                                            <i class="fab fa-weibo fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://www.instagram.com/lalalalisa_m/" target="_blank">
+                                            <i class="fab fa-instagram fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://www.youtube.com/channel/UC35HKvKYPkri4Grd5KXl3wQ/" target="_blank">
+                                            <i class="fab fa-youtube fab-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://twitter.com/BLACKPINK_LISA" target="_blank">
+                                            <i class="fab fa-twitter fab-4"></i> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- --------------------- Lisa --------------------------------- -->
+
+        </div>
+    </section>
+<!-- ------------------------- End of Members Section ----------------------- -->
+
+<!-- --------------------- Start of Discography Section --------------------- -->
+    <section class="container-fluid albums-section mb-5" id="albums">
+        <div class="container-fluid px-lg-4 px-md-4 bg-primary">
+            <div class="row text-center py-5 section-title">
+                <h1 class="text-secondary">Discography</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="albums">
+                        <div id="carousel1" class="owl-carousel">
+                            <!-- ---------------- Album #1 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Square One</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: August 8, 2016
+                                    </blockquote>
+                                    <img src="images/albums/album1.webp" class="card-img">
+                                    <code class="text-primary text-center">Debut Single Album</code>
+                                    <div class="card-body">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Whistle</strong></li>
+                                            <li class="list-group-item"> <strong>Boombayah</strong></li>
+                                        </ol>
+                                        <span class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/0FOOodYRlj7gzh7q7IjmNZ?si=b153ef1157614f1b" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #1 ------------------ -->
+
+                            <!-- ---------------- Album #2 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Square Two</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: November 1, 2016
+                                    </blockquote>
+                                    <img src="images/albums/album2.webp" class="card-img">
+                                    <code class="text-primary text-center">Second Single Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Playing With Fire </strong></li>
+                                            <li class="list-group-item"> <strong>Stay</strong></li>
+                                            <li class="list-group-item"> <strong>Whistle</strong> <em>(Acoustic Version)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/2Fna4Tb7fme5aHsNMJtVtp?si=49468f81189d4c8c" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #2 ------------------ -->
+                            
+                            <!-- ---------------- Album #3 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">As If It's Your Last</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: June 22, 2017
+                                    </blockquote>
+                                    <img src="images/albums/album3.webp" class="card-img">
+                                    <code class="text-primary text-center">Digital Single</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >As If It’s Your Last</strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/7ikmjsvRzDRzxHN0KXSQdv?si=vCs5oXhjRziNmaESpr3YcA" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #3 ------------------ -->
+
+                            <!-- ---------------- Album #4 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Blackpink</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: August 30, 2017
+                                    </blockquote>
+                                    <img src="images/albums/album4.jpg" class="card-img">
+                                    <code class="text-primary text-center">Japanese Debut Mini Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Boombayah </strong></li>
+                                            <li class="list-group-item"> <strong>Whistle</strong></li>
+                                            <li class="list-group-item"> <strong>Playing With Fire</strong></li>
+                                            <li class="list-group-item"> <strong>Stay</strong></li>
+                                            <li class="list-group-item"> <strong>As If It’s Your Last</strong></li>
+                                            <li class="list-group-item"> <strong>Whistle </strong><em>(Acoustic Version)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/6vl7a0PooHBuDRLrtNeUL0?si=_2DXDDH9S2-46jxMdreObg" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #4 ------------------ -->
+
+                            <!-- ---------------- Album #5 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">So Hot (THEBLACKLABEL Remix)</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: December 25, 2017
+                                    </blockquote>
+                                    <img src="images/albums/album5.png" class="card-img">
+                                    <code class="text-primary text-center">Remake Single</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >So Hot </strong><em>(THEBLACKLABEL Remix)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://youtu.be/eRDe7bOp5uA" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #5 ------------------ -->
+                            
+                            <!-- ---------------- Album #6 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Re:Blackpink</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: March 28, 2018
+                                    </blockquote>
+                                    <img src="images/albums/album6.webp" class="card-img">
+                                    <code class="text-primary text-center">Repackage Album Of Japanese Debut Mini Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Boombayah </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Whistle </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Playing With Fire </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Stay </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >As If It’s Your Last </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Whistle </strong><em>(Acoustic version/Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Boombayah </strong></li>
+                                            <li class="list-group-item album-title"> <strong >Whistle </strong></li>
+                                            <li class="list-group-item album-title"> <strong >Playin With Fire </strong></li>
+                                            <li class="list-group-item album-title"> <strong >Stay </strong></li>
+                                            <li class="list-group-item album-title"> <strong >As If It’s Your Last </strong></li>
+                                            <li class="list-group-item album-title"> <strong >Whistle </strong><em>(Acoustic Version)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/2Gz6UbNiSL1caVQBpExJ5x?si=0a233d4d295d4d81" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #6 ------------------ -->
+
+                            <!-- ---------------- Album #7 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Square Up</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: June 15, 2018
+                                    </blockquote>
+                                    <img src="images/albums/album7.webp" class="card-img">
+                                    <code class="text-primary text-center">Mini Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Ddu-Du, Ddu-Du </strong></li>
+                                            <li class="list-group-item"> <strong>Forever Young</strong></li>
+                                            <li class="list-group-item"> <strong>Really </strong></li>
+                                            <li class="list-group-item"> <strong>See U Later</strong></li>
+                                            <li class="list-group-item"> <strong>As If It’s Your Last </strong><em>(Physical edition hidden track)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc?si=5c458376cc61496f" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #7 ------------------ -->
+                            
+                            <!-- ---------------- Album #8 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Kiss and Make Up</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: October 19, 2018
+                                    </blockquote>
+                                    <img src="images/albums/album8.jpeg" class="card-img">
+                                    <code class="text-primary text-center">Collaboration</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Kiss and Make Up </strong><em>(Collab with Dua Lipa) </em><small><em>(Under Dua Lipa’s ‘Dua Lipa’ Album)</em></small></li>
+                                            <li class="list-group-item album-title"> <strong >Kiss and Make Up (Remix) </strong><em>(Collab with Dua Lipa, The Blessed Madonna) </em><small><em>(Under Dua Lipa’s ‘Future Nostalgia’ Album) (Released in August 29, 2020)</em></small></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/track/7jr3iPu4O4bTCVwLMbdU2i?si=70145fa9089048bd" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #8 ------------------ -->
+
+                            <!-- ---------------- Jennie Album ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Solo</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: November 12, 2018
+                                    </blockquote>
+                                    <img src="images/albums/jennie-album.png" class="card-img">
+                                    <code class="text-primary text-center">Jennie Single Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Solo </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/7qAJpYeABXN9ZV5wOOX59k?si=kDYg_5nYTJ-K820kRPawcA" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Jennie Album  ------------------ -->
+
+                            <!-- ---------------- Album #9 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">BLACKPINK In Your Area</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: November 23, 2018
+                                    </blockquote>
+                                    <img src="images/albums/album9.webp" class="card-img">
+                                    <code class="text-primary text-center">Japanese Mini Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Boombayah </strong></li>
+                                            <li class="list-group-item"> <strong>Whistle</strong></li>
+                                            <li class="list-group-item"> <strong>Playing With Fire</strong></li>
+                                            <li class="list-group-item"> <strong>Stay</strong></li>
+                                            <li class="list-group-item"> <strong>Ddu-Du, Ddu-Du </strong></li>
+                                            <li class="list-group-item"> <strong>Forever Young </strong></li>
+                                            <li class="list-group-item"> <strong>Really </strong></li>
+                                            <li class="list-group-item"> <strong>See U Later </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/4cpZazoKuj3jD6x2GrSX2w?si=8a2187b21084445f" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #9 ------------------ -->
+
+                            <!-- ---------------- Album #10 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">BLACKPINK Arena Tour 2018 Special Final in Kyocera Dome Osaka</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: March 22, 2019
+                                    </blockquote>
+                                    <img src="images/albums/album10.png" class="card-img">
+                                    <code class="text-primary text-center">Japanese Live Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Ddu-Du Ddu-Du </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong>Forever Young </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Whistle </strong><em>(Acoustic ver.) (Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Stay </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Let It Be </strong><em>(The Beatles cover) / </em><strong>You & I </strong><em>(Park Bom cover) / </em><strong>Only Look At Me (나만 바라봐)</strong><em>(Taeyang cover)</em><small><em>(Rosé solo)</em></small></li>
+                                            <li class="list-group-item album-title"> <strong >Yukino Hana (雪の華) </strong><em>(Mika Nakashima cover) </em><small><em>(Jisoo solo)</em></small></li>
+                                            <li class="list-group-item album-title"> <strong >Solo </strong><small><em>(Jennie solo)</em></small></li>
+                                            <li class="list-group-item album-title"> <strong >Last Christmas </strong><em>(Wham! cover) / </em><strong>Rudolph, the Red-Nosed Reindeer </strong><em>(Gene Autry cover)</em></li>
+                                            <li class="list-group-item"> <strong>Kiss and Make Up</strong></li>
+                                            <li class="list-group-item"> <strong>So Hot </strong><em>(THEBLACKLABEL Remix)</em></li>
+                                            <li class="list-group-item"> <strong>Really</strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item"> <strong>See You Later </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item"> <strong>Boombayah </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item"> <strong>Playing With Fire </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item"> <strong>As If It’s Your Last </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item"> <strong>Whistle (휘파람) (Remix) </strong><em>(DVD & Blu-ray Edition Only)</em></li>
+                                            <li class="list-group-item"> <strong>Stay (Remix) </strong><em>(DVD & Blu-ray Edition Only)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/1dH4B2bWb5Ys7aszi9KWHA?si=3e89cf1be32f49c3" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #10 ------------------ -->
+
+                            <!-- ---------------- Album #11 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Kill This Love</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: April 5, 2019
+                                    </blockquote>
+                                    <img src="images/albums/album11.webp" class="card-img">
+                                    <code class="text-primary text-center">Mini Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Kill This Love </strong></li>
+                                            <li class="list-group-item"> <strong>Don’t Know What To Do </strong></li>
+                                            <li class="list-group-item"> <strong>Kick It </strong></li>
+                                            <li class="list-group-item"> <strong>Hope Not</strong></li>
+                                            <li class="list-group-item"> <strong>Ddu-Du, Ddu-Du (Remix) </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/3PNxZ3BELbUXJ1XLktXiHz?si=1cd04c4d81ee4ade" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #11 ------------------ -->
+
+                            <!-- ---------------- Album #12 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">BLACKPINK 2018 Tour [In Your Area] Seoul</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: August 8, 2019
+                                    </blockquote>
+                                    <img src="images/albums/album12.jpeg" class="card-img">
+                                    <code class="text-primary text-center">Live Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Ddu-Du Ddu-Du (뚜두뚜두) </strong></li>
+                                            <li class="list-group-item"> <strong>Forever Young </strong></li>
+                                            <li class="list-group-item"> <strong>Stay (Remix ver.) </strong></li>
+                                            <li class="list-group-item"> <strong>Whistle (휘파람) </strong></li>
+                                            <li class="list-group-item"> <strong>You & I + Only Look At Me </strong><small><em>(Rosé solo)</em></small></li>
+                                            <li class="list-group-item"> <strong>Solo </strong><small><em>(Jennie solo)</em></small></li>
+                                            <li class="list-group-item"> <strong>See U Later </strong></li>
+                                            <li class="list-group-item"> <strong>Playing With Fire (불장난) </strong></li>
+                                            <li class="list-group-item"> <strong>Boombayah (붐바야) </strong></li>
+                                            <li class="list-group-item"> <strong>As If It’s Your Last (마지막처럼) </strong></li>
+                                            <li class="list-group-item"> <strong>Whistle (Remix Ver.) </strong></li>
+                                            <li class="list-group-item"> <strong>Ddu-Du Ddu-Du (Remix Ver.) </strong></li>
+                                            <li class="list-group-item"> <strong>Stay </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/4i0XmhtxZBPxwpgNeJ1Tvg?si=b7717ad5840f4335" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #12 ------------------ -->
+                            
+                            <!-- ---------------- Album #13 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Kill This Love (Japanese Version)</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release Date: October 16, 2019
+                                    </blockquote>
+                                    <img src="images/albums/album13.jpg" class="card-img">
+                                    <code class="text-primary text-center">Japanese Studio Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Kill This Love </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Don’t Know What To Do </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Kick It </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Hope Not </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Ddu-Du Ddu-Du (Remix) </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Kill This Love </strong><em>(Korean version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Don’t Know What To Do </strong><em>(Korean version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Kick It </strong><em>(Korean version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Hope Not </strong><em>(Korean version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Ddu-Du Ddu-Du (Remix) </strong><em>(Korean version)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/0uWttVLwkFxcW1PkBAsmZd?si=3dcd680752bd484a" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #13 ------------------ -->
+
+                            <!-- ---------------- Album #14 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">BLACKPINK 2019-2020 World Tour In Your Area - Tokyo Dome</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: May 6, 2020
+                                    </blockquote>
+                                    <img src="images/albums/album14.jpeg" class="card-img">
+                                    <code class="text-primary text-center">Second Japanese Live Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Ddu-Du Ddu-Du </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Forever Young </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Stay (Remix) </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Whistle </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Kill This Love </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Don’t Know What to Do </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Really </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >See U Later </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Playing With Fire </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Kick It </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Boombayah </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >As If It’s Your Last </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Kiss and Make Up </strong><em>(DVD Only)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Ddu-Du Ddu-Du (Remix) </strong><em>(Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong > Whistle </strong><em>(Acoustic ver.) (Japanese ver.)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Hope Not </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/7J4ASJD3IvdANlrPkmeVP0?si=da8337517d804a4e" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #14 ------------------ -->
+
+                            <!-- ---------------- Album #15 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Sour Candy</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: May 28, 2020
+                                    </blockquote>
+                                    <img src="images/albums/album15.png" class="card-img">
+                                    <code class="text-primary text-center">Collaboration</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Sour Candy </strong><em>(Collab with Lady Gaga)</em><small><em>(Under Lady Gaga’s ‘Chromatica’ Album)</em></small></li>
+                                            <li class="list-group-item album-title"> <strong >Sour Candy (Remix) </strong><em>(Collab with Lady Gaga and Shygirl)</em><small><em>(Under Lady Gaga’s ‘Dawn of Chromatica’ Album) (Released in September 3, 2021)</em></small></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/track/6R6ZoHTypt5lt68MWbzZXv?si=ec4455abb2a240ca" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #15 ------------------ -->
+
+                            <!-- ---------------- Album #16 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">How You Like That</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: June 26, 2020
+                                    </blockquote>
+                                    <img src="images/albums/album16.png" class="card-img">
+                                    <code class="text-primary text-center">Pre-release Single</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >How You Like That </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o?si=210f04c140824690" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #16 ------------------ -->
+
+                            <!-- ---------------- Album #17 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Ice Cream (with Selena Gomez)</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: August 28, 2020
+                                    </blockquote>
+                                    <img src="images/albums/album17.png" class="card-img">
+                                    <code class="text-primary text-center">Second Pre-release Single</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Ice Cream </strong><em>(with Selena Gomez)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/2VBb4LRcRSACOfJWRUgVZl?si=l-54bWOTSKyobW_jlzy85Q" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #17 ------------------ -->
+
+                            <!-- ---------------- Album #18 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">The Album</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: October 2, 2020
+                                    </blockquote>
+                                    <img src="images/albums/album18.webp" class="card-img">
+                                    <code class="text-primary text-center">Debut Studio Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >How You Like That </strong></li>
+                                            <li class="list-group-item"> <strong>Ice Cream </strong><em>(with Selena Gomez)</em></li>
+                                            <li class="list-group-item"> <strong>Pretty Savage</strong></li>
+                                            <li class="list-group-item"> <strong>Bet You Wanna </strong><em>(with Cardi B)</em></li>
+                                            <li class="list-group-item"> <strong>Lovesick Girls </strong></li>
+                                            <li class="list-group-item"> <strong>Crazy Over You </strong></li>
+                                            <li class="list-group-item"> <strong>Love To Hate Me </strong></li>
+                                            <li class="list-group-item"> <strong>You Never Know </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/71O60S5gIJSIAhdnrDIh3N?si=7VCerq3JT7GyPRtvblsqIQ" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #18 ------------------ -->
+
+                            <!-- ---------------- Rosé Album ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">R</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: March 12, 2021
+                                    </blockquote>
+                                    <img src="images/albums/rose-album.png" class="card-img">
+                                    <code class="text-primary text-center">Rosé Single Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >On the Ground </strong></li>
+                                            <li class="list-group-item"> <strong>Gone </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/5BQcoDfcZ8aBcikYX9B7Ob?si=t_b0VPD-RhK1JCC7MmV65w" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Rosé Album  ------------------ -->
+
+                            <!-- ---------------- Album #19 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">BLACKPINK 2021 The Show Live</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: June 1, 2021
+                                    </blockquote>
+                                    <img src="images/albums/album9.webp" class="card-img">
+                                    <code class="text-primary text-center">Second Live Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Kill This Love </strong></li>
+                                            <li class="list-group-item"> <strong>Crazy Over You</strong></li>
+                                            <li class="list-group-item"> <strong>Don’t Know What to Do</strong></li>
+                                            <li class="list-group-item"> <strong>Playing With Fire (불장난)</strong></li>
+                                            <li class="list-group-item"> <strong>Lovesick Girls</strong></li>
+                                            <li class="list-group-item"> <strong>Love To Hate Me + You Never Know </strong></li>
+                                            <li class="list-group-item"> <strong>Solo </strong><em>(Jennie solo)</em></li>
+                                            <li class="list-group-item"> <strong>Gone </strong><em>(Rosé solo)</em></li>
+                                            <li class="list-group-item"> <strong>Pretty Savage </strong></li>
+                                            <li class="list-group-item"> <strong>Ddu-Du-Ddu-Du (뚜두뚜두) </strong></li>
+                                            <li class="list-group-item"> <strong>Whistle (휘파람) </strong></li>
+                                            <li class="list-group-item"> <strong>As If It’s Your Last (마지막처럼) </strong></li>
+                                            <li class="list-group-item"> <strong>Boombayah (붐바야) </strong></li>
+                                            <li class="list-group-item"> <strong>Forever Young </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/5IDJBkr9EzMofENo4ScNxi?si=IGythjhXRkKFhBOBsKiQyA" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #19 ------------------ -->
+
+                            <!-- ---------------- Album #20 ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">The Album (Japanese Version)</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: August 3, 2021
+                                    </blockquote>
+                                    <img src="images/albums/album20.jpg" class="card-img">
+                                    <code class="text-primary text-center">Japanese Studio Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >How You Like That </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Ice Cream </strong><em>(with Selena Gomez)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Pretty Savage </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Bet You Wanna </strong><em>(with Cardi B)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Lovesick Girls </strong><em>(Japanese version)</em></li>
+                                            <li class="list-group-item album-title"> <strong >Crazy Over You </strong></li>
+                                            <li class="list-group-item album-title"> <strong >Love To Hate Me </strong></li>
+                                            <li class="list-group-item album-title"> <strong >You Never Know </strong><em>(Japanese version)</em></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/playlist/2gU52Gbb8uzGwOJWZD5SS7?si=ce100833ee07452f" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Album #20 ------------------ -->
+
+                            <!-- ---------------- Lisa Album ------------------ -->
+                            <div class="item">
+                                <div class="card bg-success">
+                                    <h2 class="text-primary card-title">Lalisa</h2>
+                                    <blockquote class="blockquote-footer pt-1 mb-1 d-none d-md-block">
+                                        Release date: September 10, 2021
+                                    </blockquote>
+                                    <img src="images/albums/lisa-album.png" class="card-img">
+                                    <code class="text-primary text-center">Lisa Single Album</code>
+                                    <div class="card-body ">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item album-title"> <strong >Lalisa </strong></li>
+                                            <li class="list-group-item"> <strong>Money </strong></li>
+                                        </ol>
+                                        <div class="d-flex flex-row-reverse">
+                                            <a href="https://open.spotify.com/album/66OYt73mqan1hWa78BhfPd?si=t6n7E31-SqGTsS8FCypp-g" target="_blank">
+                                                <img src="images/spotify-24.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ---------------- Lisa Album  ------------------ -->
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ----------------------- End of Discography Section --------------------- -->
+
+<!-- -------------------- Start of Latest News Section --------------------- -->
+    <section class="container-fluid mb-5 " id="news">
+        <div class="row text-center py-5 section-title">
+            <h1 class="text-secondary">Latest News</h1>
+        </div>
+        <ul class="nav nav-pills justify-content-center gap-2 d-md-flex mb-4 mt-2 bg-success" id="myTab2" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active btn btn-lg px-5 news-text" id="music-tab" data-bs-toggle="tab" data-bs-target="#music" type="button" role="tab">Music</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link btn btn-lg px-5 news-text" id="endorsements-tab" data-bs-toggle="tab" data-bs-target="#endorsements" type="button" role="tab">CFs & Endorsements</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link btn btn-lg px-5 news-text" id="shows-tab" data-bs-toggle="tab" data-bs-target="#shows" type="button" role="tab">TV, Radio & Online Shows</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link btn btn-lg px-5 news-text" id="stages-tab" data-bs-toggle="tab" data-bs-target="#stages" type="button" role="tab">Live Stages</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link btn btn-lg px-5 news-text" id="magazine-tab" data-bs-toggle="tab" data-bs-target="#magazine" type="button" role="tab">Magazine Features</button>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <!-- ------------------------ Start of Music Tab ------------------------- -->
+            <div class="tab-pane active" id="music" role="tabpanel">
+                <div class="container-fluid mt-5 overflow-hidden">
+                    <div class="row">
+                        <div class="col-md-6 featured-post position-relative">
+                            <div class="card bg-primary pt-5 news-post">
+                                
+                                    <div class="col-12 bg-primary news-featured-frame text-center">
+                                        <img class="news-featured-img" src="/images/articles/music-article1.webp">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-1 text-center text-success news-text">LISA – ‘LALISA’ Single Album Promotional & Press Photos</h5>
+                                            <a href="#" class="btn btn-secondary me-4 news-btn" style="position: absolute; right: 5px;">Read More</a>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+            
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/music-article2.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Music</span>
+                                                    <h5 class="card-title mt-1 news-text">DJ Snake Drops ‘SG’ Collab Single with Lisa, Megan Thee Stallion & Ozuna</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/music-article3.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Music</span>
+                                                    <h5 class="card-title mt-1 news-text">LISA – ‘MONEY’ DANCE PRACTICE VIDEO</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/music-article4.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Music</span>
+                                                    <h5 class="card-title mt-1 news-text">Rosé’s Solo Debut Teasers – On The Ground & -R- Single Album</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/music-article5.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Music</span>
+                                                    <h5 class="card-title mt-1 news-text">BLACKPINK – Lovesick Girls Dance Practice Video</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- End of Music Tab ------------------------- -->
+
+            <!-- ----------------- Start of CFs & Endorsements Tab ------------------- -->
+            <div class="tab-pane" id="endorsements" role="tabpanel">
+                <div class="container-fluid mt-5 overflow-hidden">
+                    <div class="row">
+                        <div class="col-md-6 featured-post position-relative">
+                            <div class="card bg-primary pt-5 news-post">
+                                
+                                    <div class="col-12 bg-primary news-featured-frame text-center">
+                                        <img class="news-featured-img" src="/images/articles/endorsements-article1.webp">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-1 text-center text-success news-text">BLACKPINK for PUBG MOBILE</h5>
+                                            <a href="#" class="btn btn-secondary me-4 news-btn" style="position: absolute; right: 5px;">Read More</a>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+            
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/endorsements-article2.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">CFs & Endorsements</span>
+                                                    <h5 class="card-title mt-1 news-text">Jisoo for itMICHAA Winter 2021 Collection</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/endorsements-article3.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">CFs & Endorsements</span>
+                                                    <h5 class="card-title mt-1 news-text">Rosé for O!Oi Collection</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/endorsements-article4.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">CFs & Endorsements</span>
+                                                    <h5 class="card-title mt-1 news-text">Dentiste Officially Welcomes Lisa as Their Newest Brand Ambassador</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/endorsements-article5.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">CFs & Endorsements</span>
+                                                    <h5 class="card-title mt-1 news-text">Jennie Chosen as the New Promotional Model for Ace Bed</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------ End of CFs & Endorsements Tab -------------------- -->
+            
+            <!-- -------------- Start of TV, Radio & Online Shows Tab ---------------- -->
+            <div class="tab-pane" id="shows" role="tabpanel">
+                <div class="container-fluid mt-5 overflow-hidden">
+                    <div class="row">
+                        <div class="col-md-6 featured-post position-relative">
+                            <div class="card bg-primary pt-5 news-post">
+                                
+                                    <div class="col-12 bg-primary news-featured-frame text-center">
+                                        <img class="news-featured-img" src="/images/articles/shows-article1.webp">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-1 text-center text-success news-text">BLACKPINK for NETFLIX Documentary ‘BLACKPINK: Light Up the Sky’</h5>
+                                            <a href="#" class="btn btn-secondary me-4 news-btn" style="position: absolute; right: 5px;">Read More</a>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+            
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/shows-article2.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">TV, Radio & Online Shows</span>
+                                                    <h5 class="card-title mt-1 news-text">BLACKPINK Chats with Jimmy and Performs Lovesick Girls on Jimmy Kimmel Live!</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/shows-article3.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">TV, Radio & Online Shows</span>
+                                                    <h5 class="card-title mt-1 news-text">ROSÉ’s ‘On The Ground’ Premiere on YouTube Originals ‘RELEASED’</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/shows-article4.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">TV, Radio & Online Shows</span>
+                                                    <h5 class="card-title mt-1 news-text">BLACKPINK’s Interview & Lovesick Girls Stage on Good Morning America</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/shows-article5.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">TV, Radio & Online Shows</span>
+                                                    <h5 class="card-title mt-1 news-text">Lisa’s First Exclusive Interview in Thailand on Woody Show</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <!-- --------------- End of TV, Radio & Online Shows Tab ----------------- -->
+
+            <!-- -------------------- Start of Live Stages Tab ----------------------- -->
+            <div class="tab-pane" id="stages" role="tabpanel">
+                <div class="container-fluid mt-5 overflow-hidden">
+                    <div class="row">
+                        <div class="col-md-6 featured-post position-relative">
+                            <div class="card bg-primary pt-5 news-post">
+                                
+                                    <div class="col-12 bg-primary news-featured-frame text-center">
+                                        <img class="news-featured-img" src="/images/articles/stages-article1.webp">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-1 text-center text-success news-text">201018 BLACKPINK – ‘Lovesick Girls’ Stage + 5th Win on SBS Inkigayo</h5>
+                                            <a href="#" class="btn btn-secondary me-4 news-btn" style="position: absolute; right: 5px;">Read More</a>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+            
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/stages-article2.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Live Stages</span>
+                                                    <h5 class="card-title mt-1 news-text">210314 ROSÉ Makes Solo Debut with ‘On The Ground’ + ‘Gone’ on SBS Inkigayo</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/stages-article3.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Live Stages</span>
+                                                    <h5 class="card-title mt-1 news-text">210917 LISA Claims 1st Win for ‘LALISA’ on KBS Music Bank</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/stages-article4.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Live Stages</span>
+                                                    <h5 class="card-title mt-1 news-text">BLACKPINK & Selena Gomez Grabs 3rd Win for Ice Cream on SBS Inkigayo</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/stages-article5.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Live Stages</span>
+                                                    <h5 class="card-title mt-1 news-text">BLACKPINK is Performing on MBC Music Core & SBS Inkigayo This Week</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------- End of Live Stages Tab ------------------------ -->
+
+            <!-- ----------------- Start of Magazine Features Tab -------------------- -->
+            <div class="tab-pane" id="magazine" role="tabpanel">
+                <div class="container-fluid mt-5 overflow-hidden">
+                    <div class="row">
+                        <div class="col-md-6 featured-post position-relative">
+                            <div class="card bg-primary pt-5 news-post">
+                                
+                                    <div class="col-12 bg-primary news-featured-frame text-center">
+                                        <img class="news-featured-img" src="/images/articles/magazine-article1.webp">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-1 text-center text-success news-text">BLACKPINK on Elle USA October 2020 Issue</h5>
+                                            <a href="#" class="btn btn-secondary me-4 news-btn" style="position: absolute; right: 5px;">Read More</a>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+            
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/magazine-article2.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Magazine Features</span>
+                                                    <h5 class="card-title mt-1 news-text">Rosé on DAZED Korea November 2020 Issue</h5>
+                                                    <a href="#" class="btn btn-primary news-btn" >Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/magazine-article3.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Magazine Features</span>
+                                                    <h5 class="card-title mt-1 news-text">Jennie on W Korea November 2020 Issue</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-success news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/magazine-article4.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Magazine Features</span>
+                                                    <h5 class="card-title mt-1 news-text">LISA on Allure Korea June 2020 Issue</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card bg-secondary news-post">
+                                        <div class="row">
+                                            <div class="col-5 bg-primary news-frame my-1">
+                                                <img class="news-img" src="/images/articles/magazine-article5.webp">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge rounded-pill bg-primary news-tag">Magazine Features</span>
+                                                    <h5 class="card-title mt-1 news-text">JISOO on ELLE Korea DECEMBER 2019 Issue</h5>
+                                                    <a href="#" class="btn btn-primary news-btn">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------ End of Magazine Features Tab --------------------- -->
+            
+        </div>
+
+        <a href="#" class="btn btn-success mt-3 me-4 view-more news-btn" style="position: absolute; right: 0;">View More</a>
+        
+    </section>
+<!-- --------------------- End of Latest News Section ---------------------- -->
+
+<!-- ------------------- Start of Recent Tweets Section -------------------- -->
+    <section class="container-fluid px-lg-4 px-md-4 mb-5" id="tweets">
+        <div class="row text-center py-5 section-title">
+            <h1 class="text-secondary">Recent Tweets</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="albums">
+                    <div id="carousel2" class="owl-carousel">
+            
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/DiorAW22?src=hash&amp;ref_src=twsrc%5Etfw">#DiorAW22</a> <a href="https://twitter.com/hashtag/Dior?src=hash&amp;ref_src=twsrc%5Etfw">#Dior</a> <a href="https://twitter.com/Dior?ref_src=twsrc%5Etfw">@Dior</a> @MariaGraziaChiuri 🤍✨ <a href="https://t.co/0MyBcTc0KS">https://t.co/0MyBcTc0KS</a> <a href="https://t.co/E5xJYJdFDG">pic.twitter.com/E5xJYJdFDG</a></p>&mdash; sooyaaa__ (@BLACKPINK_JSU) <a href="https://twitter.com/BLACKPINK_JSU/status/1498798900001460226?ref_src=twsrc%5Etfw">March 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet" data-lang="en" data-theme="light"><p lang="en" dir="ltr">Discover your glow with the new <a href="https://twitter.com/MACcosmetics?ref_src=twsrc%5Etfw">@MACcosmetics</a> Lightful C3✨<a href="https://twitter.com/hashtag/MACLovesLISA?src=hash&amp;ref_src=twsrc%5Etfw">#MACLovesLISA</a> <a href="https://twitter.com/hashtag/MACLIGHTFULC?src=hash&amp;ref_src=twsrc%5Etfw">#MACLIGHTFULC</a> <a href="https://t.co/wHpc0kk9qe">pic.twitter.com/wHpc0kk9qe</a></p>&mdash; lalalalisa_m (@BLACKPINK_LISA) <a href="https://twitter.com/BLACKPINK_LISA/status/1497190928238678022?ref_src=twsrc%5Etfw">February 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My snowy date 👀 <a href="https://twitter.com/BLACKPINK_LISA?ref_src=twsrc%5Etfw">@BLACKPINK_LISA</a> <a href="https://t.co/wkDvu80B9p">pic.twitter.com/wkDvu80B9p</a></p>&mdash; roses_are_rosie (@BLACKPINK_ROSEP) <a href="https://twitter.com/BLACKPINK_ROSEP/status/1481022861082959872?ref_src=twsrc%5Etfw">January 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet"><p lang="ko" dir="ltr">Just a lil something for blinks🌸 조금 더 자주 보고싶어서 조심스래 만들어본 유튜브 내가 주는 선물 💕 <br><br>Here is the link: <a href="https://t.co/Ik6HKJEm7y">https://t.co/Ik6HKJEm7y</a> <a href="https://t.co/MY3REHvfvJ">pic.twitter.com/MY3REHvfvJ</a></p>&mdash; jennierubyjane (@BLACKPINK_JENN) <a href="https://twitter.com/BLACKPINK_JENN/status/1350389426350743553?ref_src=twsrc%5Etfw">January 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check LISA out on the cover of TikTok&#39;s WHM: International Women playlist! <a href="https://twitter.com/hashtag/WomenInMusic?src=hash&amp;ref_src=twsrc%5Etfw">#WomenInMusic</a> <a href="https://twitter.com/hashtag/WhenWomenWin?src=hash&amp;ref_src=twsrc%5Etfw">#WhenWomenWin</a> <a href="https://twitter.com/tiktok_us?ref_src=twsrc%5Etfw">@tiktok_us</a> <a href="https://t.co/kPUkvet7mr">pic.twitter.com/kPUkvet7mr</a></p>&mdash; BLACKPINKOFFICIAL (@BLACKPINK) <a href="https://twitter.com/BLACKPINK/status/1501407120121499652?ref_src=twsrc%5Etfw">March 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Happiest birthday, my dearest Nini unni! 😘🤍 <a href="https://twitter.com/BLACKPINK_JENN?ref_src=twsrc%5Etfw">@BLACKPINK_JENN</a> <a href="https://t.co/hFNhQvAv2X">pic.twitter.com/hFNhQvAv2X</a></p>&mdash; roses_are_rosie (@BLACKPINK_ROSEP) <a href="https://twitter.com/BLACKPINK_ROSEP/status/1482569573799165953?ref_src=twsrc%5Etfw">January 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet"><p lang="ko" dir="ltr">❤쩬득❤ <a href="https://t.co/hW73de1AcR">pic.twitter.com/hW73de1AcR</a></p>&mdash; sooyaaa__ (@BLACKPINK_JSU) <a href="https://twitter.com/BLACKPINK_JSU/status/1500689295983538180?ref_src=twsrc%5Etfw">March 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet"><p lang="und" dir="ltr">😜 <a href="https://t.co/UfcZhOYR1V">pic.twitter.com/UfcZhOYR1V</a></p>&mdash; lalalalisa_m (@BLACKPINK_LISA) <a href="https://twitter.com/BLACKPINK_LISA/status/1493824160367517697?ref_src=twsrc%5Etfw">February 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="tweet">
+                                <blockquote class="twitter-tweet"><p lang="et" dir="ltr">Terima Kasih BLINKs, <a href="https://twitter.com/SpotifyID?ref_src=twsrc%5Etfw">@SpotifyID</a> &amp; <a href="https://twitter.com/SpotifyKpop?ref_src=twsrc%5Etfw">@SpotifyKpop</a> 🖤💖<br>Please check out ‘K-Pop ON!’ playlist on <a href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw">@Spotify</a> <br><br>🎶 <a href="https://t.co/OeiXRfe3sZ">https://t.co/OeiXRfe3sZ</a><br><br>📷📍Ratu Plaza, Indonesia<a href="https://twitter.com/hashtag/BLACKPINK?src=hash&amp;ref_src=twsrc%5Etfw">#BLACKPINK</a> <a href="https://twitter.com/hashtag/%EB%B8%94%EB%9E%99%ED%95%91%ED%81%AC?src=hash&amp;ref_src=twsrc%5Etfw">#블랙핑크</a> <a href="https://t.co/Jd6ezlMuKP">pic.twitter.com/Jd6ezlMuKP</a></p>&mdash; BLACKPINKOFFICIAL (@BLACKPINK) <a href="https://twitter.com/BLACKPINK/status/1501105167650865152?ref_src=twsrc%5Etfw">March 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <span class="play" id="play">
+                <i class="fa-solid fa-circle-pause"></i>
+            </span>
+            <!-- <span class="stop"><i class="fa-solid fa-circle-pause"></i></span> -->
+        </div>
+    
+    </section>
+<!-- -------------------- End of Recent Tweets Section --------------------- -->
+
+<!-- --------------------------- Start of Footer --------------------------- -->
+    <footer>
+        <div class="pt-5 bg-secondary mt-5">
+            <div class="container footer-text">
+                <div class="row">
+
+                    <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                        <h5 class="fw-bold text-uppercase text-decoration-underline  mb-3">About Us</h5>
+                        <p>We aim to be your No. 1 and most reliable source for all things BLACKPINK.</p>
+                        <p>We will do our best to provide you the latest news and media of the girls, for BLINKs, by BLINKs.</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a class="text-para me-1" href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-para me-1" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-para me-1" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-para" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center">
+                        <h5 class="text-uppercase text-decoration-underline mb-3">Latest News</h5>
+                        <ul class="list-unstyled">
+                            <li><a class="text-decoration-none" href="#">Music</a></li>
+                            <li><a class="text-decoration-none" href="#">CFs & Endorsements</a></li>
+                            <li><a class="text-decoration-none" href="#">TV, Radio & Online Shows</a></li>
+                            <li><a class="text-decoration-none" href="#">Live Stages</a></li>
+                            <li><a class="text-decoration-none" href="#">Magazine Features</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center">
+                        <h5 class="text-uppercase text-decoration-underline mb-3">Sign Up For Our Newsletter</h5>
+                        <p>Join for a weekly curated email with all the latest news surrounding BLACKPINK.</p>
+                        <form action="#" id="newsletter-form">
+                            <div class="input-group mb3">
+                                <input type="email" class="form-control border border-success border-end-0" placeholder="Your Email Address">
+                                <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-envelope"></i></button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-success text-primary-600 p-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="border-end-0 text-center">
+                        <p class="text-sm mb-md-0">
+                            &copy; 2022, Robert Dalmacio. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- ---------------------------- End of Footer ---------------------------- -->
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
