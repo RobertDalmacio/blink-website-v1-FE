@@ -35,7 +35,7 @@ The key features of my static bootstrap website are:
 ---
 ![Footer Screenshots](images/tables/table-footer.png)
 >__Footer__: Fully responsive footer with an “About Us” section with clickable social media links, links to each news category, and a newsletter sign-up form. 
-
+---
 ## Market Survey
 1. [YG Dreamers](https://ygdreamers.com) - WordPress fansite page with blog posts for recent news about Blackpink, separated by topics such as music, news, event, … etc.
 2. [r/BlackPink](https://www.reddit.com/r/BlackPink) - Subreddit forum for Blackpink fans, subscribed users can contribute to the page with content such as images, text, videos, and links. All content on the site can be voted up or down by other members.
