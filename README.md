@@ -1,7 +1,7 @@
 #  Blackpink Fan Page
 
 ## Introduction 
-I will be creating a fan page for the Kpop group Blackpink. __The goal of this website is to act as a central information hub for the latest news, social posts, and updates pertaining to the members of Blackpink.__ It will also offer users that choose to register an account, access to a social news platform to discuss and vote on content that other users have submitted, similar to the massively popular discussion website, Reddit.
+My static bootstrap website is a fan page for the Kpop group Blackpink. __The goal of this website is to act as a central information hub for the latest news, social posts, and updates pertaining to the members of Blackpink.__
 
 The key features of my static bootstrap website are:
 * Fully responsive design and layout for mobile, tablet, FHD, QHD, and UHD displays.
