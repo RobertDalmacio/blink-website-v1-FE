@@ -1,15 +1,15 @@
 #  Blackpink Fan Page
 
 ## Introduction 
-I will be creating a fan page for the Kpop group Blackpink. __The goal of this website is to act as a central information hub for the all latest news, social posts, and updates pertaining to the members of Blackpink.__ It will also offer users that choose to register an account, access to a social news platform to discuss and vote on content that other users have submitted, similar to the massively popular discussion website, Reddit.
+I will be creating a fan page for the Kpop group Blackpink. __The goal of this website is to act as a central information hub for the latest news, social posts, and updates pertaining to the members of Blackpink.__ It will also offer users that choose to register an account, access to a social news platform to discuss and vote on content that other users have submitted, similar to the massively popular discussion website, Reddit.
 
 The key features of my static bootstrap website are:
-* Fully responsive design and layout for mobile, tablet, FHD, QHD and UHD displays.
-* Login and Signup pop-up modal to allowed registered users to login, and new users to signup for an account using bootstrap styled forms.
+* Fully responsive design and layout for mobile, tablet, FHD, QHD, and UHD displays.
+* Login and Signup pop-up modal to allow registered users to login, and new users to signup for an account using bootstrap-styled forms.
 * Biography, interesting facts and social media links of each group member displayed using bootstrap accordions.
 * Discography carousel using Owl-Carousel a jQuery plugin, displaying the group’s albums in a bootstrap card element with links to Spotify playlists.
 * Latest news section showcasing categorized news posts and displayed using bootstrap tabs.
-* Recent tweets section carousel also using Owl-Carousel, displaying recent tweets from the group and each member’s twitter accounts.
+* Recent tweets carousel also using Owl-Carousel, displaying recent tweets from the group and each member’s Twitter accounts.
 
 ## Design and Implementation
 ![Navbar Screenshots](images/tables/table-navbar.png)
