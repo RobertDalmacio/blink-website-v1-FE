@@ -3,7 +3,7 @@
 ## Introduction 
 My static bootstrap website is a fan page for the Kpop group Blackpink. __The goal of this website is to act as a central information hub for the latest news, social posts, and updates pertaining to the members of Blackpink.__
 
-The key features of my static bootstrap website are:
+The key features are:
 * Fully responsive design and layout for mobile, tablet, FHD, QHD, and UHD displays.
 * Login and Signup pop-up modal to allow registered users to login, and new users to signup for an account using bootstrap-styled forms.
 * Biography, interesting facts and social media links of each group member displayed using bootstrap accordions.
