@@ -9,11 +9,11 @@ The key features are:
 * Biography, interesting facts and social media links of each group member displayed using bootstrap accordions.
 * Discography carousel using Owl-Carousel a jQuery plugin, displaying the group’s albums in a bootstrap card element with links to Spotify playlists.
 * Latest news section showcasing categorized news posts and displayed using bootstrap tabs.
-* Recent tweets carousel also using Owl-Carousel, displaying recent tweets from the group and each member’s Twitter accounts.
+* Recent tweets carousel also uses Owl-Carousel, displaying recent tweets from the group and each member’s Twitter accounts.
 
 ## Design and Implementation
 ![Navbar Screenshots](images/tables/table-navbar.png)
-> __Navbar:__ Sticky-top navbar menu with brand logo and button to activate “Login/Sign Up pop-up modal”. Fully responsive with toggler button on mobile and tablet devices. Dropdown list for “Members” section on mobile devices. 
+> __Navbar:__ Sticky-top navbar menu with brand logo and button to activate “Login/Sign Up pop-up modal”. Fully responsive with a toggle button on mobile and tablet devices. Dropdown list for “Members” section on mobile devices. 
 ---
 ![Login/SignUp Modal Screenshots](images/tables/table-login.png)
 >__Login/SignUp Modal:__ Pop-up modal with two different tabs, “Login” and “Sign Up”. Uses bootstrap input groups, select, floating labels components, and styled using form control. On FHD screens and larger, an image is also shown on the Login tab. 
