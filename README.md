@@ -31,7 +31,8 @@ The key features of my static bootstrap website are:
 >__Latest News Section__: This section uses tabs to display different news categories. Bootstrap horizontal cards are used for each post. A featured post is shown on FHD and larger screens. 
 ---
 ![Recent Tweets Section Screenshots](images/tables/table-tweets.png)
->__Recent Tweets Section__: Similar to the discography section this section also uses the Owl Carousel jQuery plugin to display each tweet as a separate card. Recent tweets are embedded manually from each of the members' Twitter accounts. The carousel is configured to cycle every 5 seconds, a play/pause button is included to stop and resume the carousel.
+>__Recent Tweets Section__: Similar to the discography section this section also uses the Owl Carousel jQuery plugin to display each tweet as a separate card. Recent tweets are embedded manually from each of the members' Twitter accounts. The carousel is configured to cycle every 5 seconds, a play/pause button is included to stop and resume the caroJojames2734!
+usel.
 ---
 ![Footer Screenshots](images/tables/table-footer.png)
 >__Footer__: Fully responsive footer with an “About Us” section with clickable social media links, links to each news category, and a newsletter sign-up form. 
